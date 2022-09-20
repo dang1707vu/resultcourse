@@ -1,0 +1,26 @@
+//colors black:#010101 blue:#3641b7 red:#ff5670 yellow:#FDB400 grey:#627193
+$secondary: #627193;
+$danger: #ff5670;
+$dark: #010101;
+$warning: #FDB400;
+$primary: #3641b7;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.nav-link {
+    color: #627193;
+  }
+
+.nav-item {
+    margin-right: 35px;
+  }
+
+h1 {
+    font-size: 65px;
+}
+
+@media screen and (max-width: 992px) {
+    .bg {
+        display: none;
+    }
+}
