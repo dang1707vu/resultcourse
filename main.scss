@@ -18,10 +18,18 @@ h1 {
     font-size: 65px;
 }
 
-@media screen and (max-width: 992px) {
-    .bg {
-        display: none;
-    }
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+  background: #3641b7;
+  border-radius: 35px;
+  display: flex;
+  z-index: 1;
+  border: none;
+  overflow: hidden;
 }
 
 /* Right */
@@ -126,4 +134,42 @@ h1 {
 .b5 {
   left: 75%;
   top: 92%;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .puzzle1R{display:none};
+  .puzzle1L{display:none};
+
+  .puzzle2L{display:none};
+  .puzzle2R{display:none};
+
+  .puzzle3L{display:none};
+  .puzzle3R{display:none};
+
+  .puzzle4L{display:none};
+  .puzzle4R{display:none};
+
+  .card {margin-left: auto; margin-right: auto};
+  .hero {margin-left: auto; margin-right: auto};
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .puzzle1L{display:none};
+
+  .puzzle2R{display:none};
+  .puzzle2T{display:none};
+
+  .puzzle3L{display:none};
+  .puzzle3B{display:none};
+
+  .puzzle4R{display:none};
+  .bg {margin-left: auto; margin-right: auto};
+  .center {margin-left: auto; margin-right: auto};
+}
+
+@media screen and (min-width: 992px) {
+
 }
