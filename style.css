@@ -10765,6 +10765,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.playButton {
+  border-radius: 200px;
+  width: 40px;
+  height: 40px;
+  border: 6px solid #FDB400;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  background-color: transparent;
+  margin-left: 15px;
+  padding: 20px;
+  -webkit-transform: rotate(-45deg);
+}
+
 .nav-link {
   color: #627193;
 }
@@ -10775,6 +10788,10 @@ textarea.form-control-lg {
 
 h1, .h1 {
   font-size: 65px;
+}
+
+.profile {
+  width: 80px;
 }
 
 .card {
@@ -10943,6 +10960,15 @@ h1, .h1 {
     margin-left: auto;
     margin-right: auto;
   }
+  .text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .profile {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (min-width: 768px) {
   .puzzle1L {
@@ -10968,6 +10994,12 @@ h1, .h1 {
     margin-right: auto;
   }
   .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .card {
     margin-left: auto;
     margin-right: auto;
   }
