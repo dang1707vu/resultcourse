@@ -23,3 +23,107 @@ h1 {
         display: none;
     }
 }
+
+/* Right */
+.puzzleRL {
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  background: white;
+  border-radius: 25px;
+}
+
+.r1 {
+  top: 15%;
+  left: 92%;
+}
+.r2 {
+  top: 30%;
+  left: 92%;
+}
+.r3 {
+  top: 45%;
+  left: 92%;
+}
+.r4 {
+  top: 60%;
+  left: 92%;
+}
+.r5 {
+  top: 75%;
+  left: 92%;
+}
+
+/* Left */
+.l1 {
+  top: 15%;
+  left: -8%;
+}
+.l2 {
+  top: 30%;
+  left: -8%;
+}
+.l3 {
+  top: 45%;
+  left: -8%;
+}
+.l4 {
+  top: 60%;
+  left: -8%;
+}
+.l5 {
+  top: 75%;
+  left: -8%;
+}
+
+
+.puzzleTB {
+  position: absolute;
+  width: 20px;
+  height: 45px;
+  background: white;
+  border-radius: 25px;
+}
+/* Top */
+.t1 {
+  left: 15%;
+  top: -8%;
+}
+.t2 {
+  left: 30%;
+  top: -8%;
+}
+.t3 {
+  left: 45%;
+  top: -8%;
+}
+.t4 {
+  left: 60%;
+  top: -8%;
+}
+.t5 {
+  left: 75%;
+  top: -8%;
+}
+
+/* Bottom */
+.b1 {
+  left: 15%;
+  top: 92%;
+}
+.b2 {
+  left: 30%;
+  top: 92%;
+}
+.b3 {
+  left: 45%;
+  top: 92%;
+}
+.b4 {
+  left: 60%;
+  top: 92%;
+}
+.b5 {
+  left: 75%;
+  top: 92%;
+}
