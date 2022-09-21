@@ -7,19 +7,25 @@ $primary: #3641b7;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
-
-.playButton {
- border-radius: 200px;
- width: 40px;
- height: 40px;
- border: 6px solid #FDB400;
- border-right: 6px solid white;
- border-bottom: 6px solid white;
- background-color: transparent;
- margin-left: 15px;
- padding: 20px;
- -webkit-transform:rotate(-45deg);
+.playButton::after {
+  border-radius: 200px;
+  border: 6px solid #FDB400;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  background-color: transparent;
+  margin-left: 15px;
+  padding: 15px;
 }
+
+// .playButton {
+//  border-radius: 200px;
+//  border: 6px solid #FDB400;
+//  border-right: 6px solid white;
+//  border-bottom: 6px solid white;
+//  background-color: transparent;
+//  margin-left: 15px;
+//  padding: 15px;
+// }
 
 .nav-link {
     color: #627193;
@@ -172,11 +178,12 @@ h1 {
   .hero {margin-left: auto; margin-right: auto};
   .text {margin-left: auto; margin-right: auto; text-align: center};
   .profile {margin-left: auto; margin-right: auto};
+  .center {margin-left: auto; margin-right: auto; text-align: center};
 }
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1399px) {
   .puzzle1L{display:none};
 
   .puzzle2R{display:none};
@@ -190,7 +197,25 @@ h1 {
   .center {margin-left: auto; margin-right: auto};
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .card {margin-left: auto; margin-right: auto;};
+}
 
+@media screen and (min-width: 1400px) {
+  .puzzle1B{display:none};
+  .puzzle1L{display:none};
+
+  .puzzle2T{display:none};
+  .puzzle2B{display:none};
+
+  .puzzle3T{display:none};
+  .puzzle3B{display:none};
+
+  .puzzle4T{display:none};
+  .puzzle4R{display:none;}
+
+
+
+
+  .card {justify-content: center};
 }
